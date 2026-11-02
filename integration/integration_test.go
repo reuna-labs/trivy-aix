@@ -37,7 +37,7 @@ import (
 	"github.com/aquasecurity/trivy/pkg/uuid"
 	"github.com/aquasecurity/trivy/pkg/vex/repo"
 
-	_ "modernc.org/sqlite"
+	_ "github.com/aquasecurity/trivy/internal/sqlite"
 )
 
 var update = flag.Bool("update", false, "update golden files")

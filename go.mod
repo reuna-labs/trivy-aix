@@ -81,6 +81,7 @@ require (
 	github.com/moby/docker-image-spec v1.3.1
 	github.com/moby/moby/api v1.56.1
 	github.com/moby/moby/client v0.6.2
+	github.com/ncruces/go-sqlite3 v0.36.0
 	github.com/nikolalohinski/gonja/v2 v2.9.1
 	github.com/open-policy-agent/opa v1.21.2
 	github.com/opencontainers/go-digest v1.0.0
@@ -355,7 +356,9 @@ require (
 	github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00 // indirect
 	github.com/morikuni/aec v1.1.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
+	github.com/ncruces/go-sqlite3-wasm/v6 v6.4.35401 // indirect
 	github.com/ncruces/go-strftime v1.0.0 // indirect
+	github.com/ncruces/julianday v1.0.0 // indirect
 	github.com/oklog/ulid/v2 v2.1.2 // indirect
 	github.com/opencontainers/runtime-spec v1.3.0 // indirect
 	github.com/owenrumney/squealer v1.2.12 // indirect

@@ -31,7 +31,7 @@ import (
 	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/pkg/dpkg"
 	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/repo/apk"
 	_ "github.com/aquasecurity/trivy/pkg/fanal/handler/all"
-	_ "modernc.org/sqlite"
+	_ "github.com/aquasecurity/trivy/internal/sqlite"
 )
 
 func TestAnalysisResult_Merge(t *testing.T) {

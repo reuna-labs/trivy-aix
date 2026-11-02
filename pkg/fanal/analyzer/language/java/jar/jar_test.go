@@ -15,7 +15,7 @@ import (
 	"github.com/aquasecurity/trivy/pkg/javadb"
 	"github.com/aquasecurity/trivy/pkg/mapfs"
 
-	_ "modernc.org/sqlite"
+	_ "github.com/aquasecurity/trivy/internal/sqlite"
 )
 
 func Test_javaLibraryAnalyzer_Analyze(t *testing.T) {
